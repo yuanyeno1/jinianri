@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/maincolor"></View>
+
+    <RadioGroup
+        android:background="@color/white"
+        android:id="@+id/menu_tab"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/menu_home"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/tab_home"
+            android:textSize="12sp"
+            android:textColor="@drawable/tab_textcolor"/>
+
+        <RadioButton
+            android:id="@+id/menu_birth"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/tab_birth"
+            android:textSize="12sp"
+            android:textColor="@drawable/tab_textcolor"/>
+
+        <RadioButton
+            android:id="@+id/menu_find"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/tab_find"
+            android:textSize="12sp"
+            android:textColor="@drawable/tab_textcolor"/>
+    </RadioGroup>
+
+</LinearLayout>
